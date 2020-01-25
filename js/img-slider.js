@@ -77,6 +77,9 @@ function slide(wrapper, items, prev, next) {
     } else {
       items.style.left = (posInitial) + "px";
     }
+
+    document.onmouseup = null;
+    document.onmousemove = null;
   }
   
   function shiftSlide(dir, action) {
