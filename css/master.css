@@ -58,6 +58,31 @@ a.navbar-item{
 .tab-breaks{
     display: none;
 }
+.subtitle.is-6{
+    line-height: 28px;
+    text-align: justify;
+}
+
+.about{
+    background: url('../img/about-bg.jpg');
+    background-size: cover;
+}
+
+.btn-centered{
+    position: relative;
+    left: 50%;
+    margin-top: 20px;
+    transform: translateX(-50%);
+}
+
+.whyUs .columns .column,.testimonials .columns .column{
+    margin: 5px;
+}
+
+.testimonials .column{
+    height: 150px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.3)
+}
 
 @media only screen and (max-width: 600px) {
     .bt-nav{
