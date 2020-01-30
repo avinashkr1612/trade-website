@@ -78,12 +78,27 @@ a.navbar-item{
 .whyUs .columns .column,.testimonials .columns .column{
     margin: 5px;
 }
-
-.testimonials .column{
-    height: 150px;
-    box-shadow: 3px 3px 10px rgba(0,0,0,0.3)
+.contactUs{
+    background: url("../img/contactUs.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
 }
 
+.testimonials .column{
+    min-height: 150px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.3)
+}
+.color-overlay{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    background: rgb(46,48,74);
+    background: linear-gradient(90deg, rgba(46,48,74,1) 0%, rgba(9,43,121,1) 41%, rgba(49,227,195,1) 100%); 
+    margin: -3rem -1.5rem;  
+    opacity: 0.8;
+}
 @media only screen and (max-width: 600px) {
     .bt-nav{
         position: relative;
