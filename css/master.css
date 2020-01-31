@@ -99,6 +99,10 @@ a.navbar-item{
     margin: -3rem -1.5rem;  
     opacity: 0.8;
 }
+
+.text-sm{
+    font-size: 14px;
+}
 @media only screen and (max-width: 600px) {
     .bt-nav{
         position: relative;
@@ -106,3 +110,5 @@ a.navbar-item{
         display: none;
     }
   }
+
+
