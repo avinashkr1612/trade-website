@@ -103,6 +103,15 @@ a.navbar-item{
 .text-sm{
     font-size: 14px;
 }
+
+.is-Vcentered{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+
+
 @media only screen and (max-width: 600px) {
     .bt-nav{
         position: relative;
