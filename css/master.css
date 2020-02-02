@@ -104,10 +104,10 @@ a.navbar-item{
     font-size: 14px;
 }
 
-.is-Vcentered{
-    position: relative;
-    top:50%;
-    transform: translateY(-50%);
+
+
+#banner{
+    padding: 0px;
 }
 
 
